@@ -1,0 +1,27 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.*
+
+# Runtime memory files (개인 대화 데이터)
+memory.json
+mem.db
+*.db
+
+# LanceDB / vector DB
+vectordb/
+lancedb/
+*.arrow
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
+temp/
