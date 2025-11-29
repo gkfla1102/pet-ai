@@ -31,8 +31,8 @@ export function saveShortTerm(userId, text) {
     time: new Date().toISOString(),
   });
 
-  if (db.short[userId].length > 100)
-    db.short[userId] = db.short[userId].slice(-100);
+  if (db.short[userId].length > 1000)
+    db.short[userId] = db.short[userId].slice(-1000);
 
   save(db);
 }
